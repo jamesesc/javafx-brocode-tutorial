@@ -37,7 +37,7 @@ public class Stages extends Application {
         theStage.setFullScreen(true);
 
         // Stage methods for exit: Exit Hint; Exit Combo Key
-        theStage.setFullScreenExitHint("Press ESC to exit");
+        theStage.setFullScreenExitHint("Press q to exit");
         theStage.setFullScreenExitKeyCombination(KeyCombination.valueOf("q"));
 
         // Passing our Scene to our stage
