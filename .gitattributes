@@ -1,0 +1,6 @@
+# Normalize all text files to LF line ending in the repository
+* text=auto
+
+* Treat specific file types as binary
+*.png binary
+*.jpg binary
